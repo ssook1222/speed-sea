@@ -6,18 +6,18 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var start: Button
+class sixActivity : AppCompatActivity() {
+
+    private lateinit var mom: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_six)
 
-        val intent = Intent(this, secondActivity::class.java)
-
-        start = findViewById(R.id.start) as Button
-        start.setOnClickListener {
+        mom = findViewById(R.id.mom) as Button
+        mom.setOnClickListener {
+            var intent = Intent(this, sevenActivity::class.java)
             startActivity(intent)
         }
     }

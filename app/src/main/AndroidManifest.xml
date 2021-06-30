@@ -8,10 +8,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".thirdActivity"></activity>
-        <activity android:name=".secondActivity" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".fourteenActivity"></activity>
+        <activity android:name=".thirteenActivity" />
+        <activity android:name=".twelveActivity" />
+        <activity android:name=".elevenActivity" />
+        <activity android:name=".nineActivity" />
+        <activity android:name=".tenActivity" />
+        <activity android:name=".eightActivity" />
+        <activity android:name=".sevenActivity" />
+        <activity
+            android:name=".sixActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".fiveActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".fourActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".thirdActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".secondActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
