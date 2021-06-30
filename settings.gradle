@@ -1,0 +1,2 @@
+rootProject.name='speedsea'
+include ':app'
