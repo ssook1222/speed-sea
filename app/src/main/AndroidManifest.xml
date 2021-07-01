@@ -9,14 +9,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".fourteenActivity"></activity>
-        <activity android:name=".thirteenActivity" />
-        <activity android:name=".twelveActivity" />
-        <activity android:name=".elevenActivity" />
-        <activity android:name=".nineActivity" />
-        <activity android:name=".tenActivity" />
-        <activity android:name=".eightActivity" />
-        <activity android:name=".sevenActivity" />
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".eighteenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".seventeenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".sixteenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".fifteenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".fourteenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".thirteenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".twelveActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".elevenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".nineActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".tenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".eightActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".sevenActivity"
+            android:noHistory="true" />
         <activity
             android:name=".sixActivity"
             android:noHistory="true" />
